@@ -77,7 +77,7 @@ app.listen(port, () => {
 });
 
 mongoose.set('strictQuery', true);
-mongoose.connect("mongodb://localhost:27017/quanlydoanvien",{
+mongoose.connect("mongodb+srv://vuvantinh121123:Tv170203@cluster0.rl9mtof.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, (err) => {
