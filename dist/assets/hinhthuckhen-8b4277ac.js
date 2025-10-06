@@ -1,0 +1,1 @@
+import{I as e}from"./index-469ebc4a.js";const i={getHinhthuckhens(h){const t="/hinhthuckhen/fetch";return e.get(t,{params:h})},addHinhthuckhen(h){const t="/hinhthuckhen/add";return e.post(t,h)},editHinhthuckhen(h){const t=`/hinhthuckhen/edit/${h.id_edit}`;return e.put(t,h)},deleteHinhthuckhen(h,t){const n=`/hinhthuckhen/delete/${h}`;return e.delete(n,{params:t})}};export{i as h};

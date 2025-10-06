@@ -1,0 +1,1 @@
+.scrollhide::-webkit-scrollbar-thumb{background-color:transparent}.step:last-child hr{display:none}.scrollhide{overflow-x:scroll}.scrollhide::-webkit-scrollbar{width:4px}::-webkit-scrollbar:horizontal{height:8px}.scrollhide::-webkit-scrollbar-track{background:transparent}.scrollhide:hover::-webkit-scrollbar-thumb{background-color:#af0000;border-radius:20px;border:1px solid gray}

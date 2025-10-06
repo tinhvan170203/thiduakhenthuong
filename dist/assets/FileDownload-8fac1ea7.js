@@ -1,0 +1,1 @@
+import{C as r}from"./Link-3fd13359.js";import{r as a,i as t}from"./createSvgIcon-e7baeffd.js";import{j as o}from"./index-469ebc4a.js";const p=r;var e={},i=t;Object.defineProperty(e,"__esModule",{value:!0});var u=e.default=void 0,l=i(a()),s=o,v=(0,l.default)((0,s.jsx)("path",{d:"M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"}),"FileDownload");u=e.default=v;export{p as C,u as d};
