@@ -17,7 +17,7 @@ app.use(function(req, res, next) {
   
 app.use(cors({
     // origin: "*",
-    origin: ["http://localhost:5173", "http://localhost:3000", "http://192.168.1.10:5173"],
+    origin: ["http://localhost:5173", "http://localhost:3000", "http://192.168.1.10:5173", "https://frontendthidua.vercel.app/"],
     credentials: true,
 }));
 // app.use(express.json());
