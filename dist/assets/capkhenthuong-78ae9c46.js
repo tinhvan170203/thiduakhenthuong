@@ -1,1 +1,0 @@
-import{I as n}from"./index-469ebc4a.js";const r={getCapkhenthuongs(e){const t="/capkhen/fetch";return n.get(t,{params:e})},addCapkhenthuong(e){const t="/capkhen/add";return n.post(t,e)},editCapkhenthuong(e){const t=`/capkhen/edit/${e.id_edit}`;return n.put(t,e)},deleteCapkhenthuong(e,t){const o=`/capkhen/delete/${e}`;return n.delete(o,{params:t})}};export{r as c};

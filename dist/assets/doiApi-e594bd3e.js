@@ -1,0 +1,1 @@
+import{I as o}from"./index-371a4e8f.js";const r={getDois(t){const e="/doi/fetch";return o.get(e,{params:t})},addDoi(t){const e="/doi/add";return o.post(e,t)},editDoi(t){const e=`/doi/edit/${t.id_edit}`;return o.put(e,t)},deleteDoi(t,e){const i=`/doi/delete/${t}`;return o.delete(i,{params:e})}};export{r as d};

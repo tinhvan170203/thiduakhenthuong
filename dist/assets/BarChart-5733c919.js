@@ -1,0 +1,1 @@
+import{r,i as a}from"./createSvgIcon-b5eb2c40.js";import{j as t}from"./index-371a4e8f.js";var e={},u=a;Object.defineProperty(e,"__esModule",{value:!0});var o=e.default=void 0,v=u(r()),i=t,d=(0,v.default)((0,i.jsx)("path",{d:"M4 9h4v11H4zm12 4h4v7h-4zm-6-9h4v16h-4z"}),"BarChart");o=e.default=d;export{o as d};

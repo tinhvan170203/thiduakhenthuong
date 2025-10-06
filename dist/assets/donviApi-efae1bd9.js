@@ -1,1 +1,0 @@
-import{I as o}from"./index-469ebc4a.js";const d={getDonvis(t){const e="/don-vi/fetch";return o.get(e,{params:t})},addDonvi(t){const e="/don-vi/add";return o.post(e,t)},editDonvi(t){const e=`/don-vi/edit/${t.id_edit}`;return o.put(e,t)},deleteDonvi(t,e){const n=`/don-vi/delete/${t}`;return o.delete(n,{params:e})}};export{d};

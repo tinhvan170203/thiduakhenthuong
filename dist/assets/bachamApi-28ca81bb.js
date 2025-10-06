@@ -1,0 +1,1 @@
+import{I as e}from"./index-371a4e8f.js";const m={getBachams(a){const t="/bac-ham/fetch";return e.get(t,{params:a})},addBacham(a){const t="/bac-ham/add";return e.post(t,a)},editBacham(a){const t=`/bac-ham/edit/${a.id_edit}`;return e.put(t,a)},deleteBacham(a,t){const c=`/bac-ham/delete/${a}`;return e.delete(c,{params:t})}};export{m as b};

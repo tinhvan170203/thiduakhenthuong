@@ -1,1 +1,0 @@
-import{I as o}from"./index-469ebc4a.js";const c={getNotifications(t){const i="/notification/fetch";return o.get(i,{params:t})},addNotification(t){const i="/notification/add";return o.post(i,t)},editNotification(t){const i=`/notification/edit/${t.id_edit}`;return o.put(i,t)},deleteNotification(t,i){const n=`/notification/delete/${t}`;return o.delete(n,{params:i})}};export{c as n};
