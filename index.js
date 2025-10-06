@@ -63,7 +63,7 @@ app.use('/hoat-dong-doan', hoatdongRoute);
 const path = require("path");
 const basePath = '';
 
-
+app.get('/test', (req, res)=> res.send('ok'))
 app.use('/upload', express.static(path.join(__dirname, '/upload')));
 // //cấu hình chạy reactjs trên node server
 app.use(basePath + "/", express.static(path.resolve(__dirname + "/dist")));
